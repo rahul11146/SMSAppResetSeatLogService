@@ -38,7 +38,7 @@ namespace ResetSeatLogTodaySrvc
             {
                 timer.Enabled = false;
 
-                if (DateTime.Now.ToString("hh:mm") == ConfigurationManager.AppSettings["LogInterval"].ToString())
+                //if (DateTime.Now.ToString("hh:mm") == ConfigurationManager.AppSettings["LogInterval"].ToString())
                 {
                     SeatResetDAL mSeatResetDAL = new SeatResetDAL();
                     string mId = string.Empty;
