@@ -15,15 +15,16 @@ namespace ResetSeatLogTodaySrvc
         /// </summary>
         static void Main()
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new ResetSeatLogToday()
-            };
-            ServiceBase.Run(ServicesToRun);
+            //ServiceBase[] ServicesToRun;
+            //ServicesToRun = new ServiceBase[]
+            //{
+            //    new ResetSeatLogToday()
+            //};
+            //ServiceBase.Run(ServicesToRun);
 
-            //ResetSeatLogToday mResetSeatLogToday = new ResetSeatLogToday();
-            //mResetSeatLogToday.OnDebug();
+            ResetSeatLogToday mResetSeatLogToday = new ResetSeatLogToday();
+            mResetSeatLogToday.OnDebug();
+
         }
     }
 }

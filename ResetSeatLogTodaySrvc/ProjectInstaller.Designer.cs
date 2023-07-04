@@ -39,9 +39,8 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "My First Service demo";
-            this.serviceInstaller1.DisplayName = "MyFirstService.Demo";
-            this.serviceInstaller1.ServiceName = "Service1";
+            this.serviceInstaller1.DisplayName = "ResetSeatLogTodaySrvc";
+            this.serviceInstaller1.ServiceName = "ResetSeatLogTodaySrvc";
             // 
             // ProjectInstaller
             // 

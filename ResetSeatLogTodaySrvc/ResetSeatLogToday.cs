@@ -48,6 +48,7 @@ namespace ResetSeatLogTodaySrvc
                     mSeatResetDAL.ResetSeatLogToday();
 
                     mId = mSeatResetDAL.ResetSPLog(mId, "Y");
+
                 }
 
                 timer.Enabled = true;
@@ -65,7 +66,7 @@ namespace ResetSeatLogTodaySrvc
             {
                 timer.Enabled = false;
 
-                if (DateTime.Now.ToString("hh:mm") == "00:00")
+                //if (DateTime.Now.ToString("hh:mm") == "00:00")
                 {
                     SeatResetDAL mSeatResetDAL = new SeatResetDAL();
                     string mId = string.Empty;
